@@ -20,6 +20,3 @@ show-image = "0.13.1"
 skia-safe = "0.63.0"
 winapi = "0.3"
 
-[[bin]]
-name = "bruh"
-path = "main.rs"
