@@ -137,7 +137,7 @@ fn main() -> Result<(), eframe::Error> {
     let args: Vec<String> = env::args().collect();
     let file_path: PathBuf = (&args[1]).into();
 
-    if &args[1] == "compile" {
+    if &args[1] == "convert" {
         if args.len() < 3 {
             panic!("Secondary argument ('path') not provided. Example: `cargo run compile ~/image.png`")
         }
